@@ -7,6 +7,10 @@ body {
   padding-top: 56px;
 }
 
+.logo {
+  height: 30px;
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;

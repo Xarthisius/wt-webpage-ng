@@ -1,0 +1,120 @@
+highlights:
+  - title: Open Source Platform
+    text: |
+      The Whole Tale project is developing an open source platform and welcomes
+      both re-use and contribution from the research infrastructure community.
+      As a building block, the platform is intended to be deployable in a
+      variety of environments, including the primary service at
+      <a href="https://dashboard.wholetale.org">
+      https://dashboard.wholetale.org</a>.
+  - title: Open Source Curriculum
+    text: |
+      The Whole Tale project is dedicated to the improvement of education and
+      training for reproducible research practices through the creation of open
+      lessons both for classroom instruction and through contributions to
+      programs such as the Carpentries.
+  - title: Open Infrastructure
+    text: |
+      The Whole Tale project aspires to contribute to and increase the impact of
+      existing open infrastructure projects. The success of Whole Tale depends
+      on our ability to connect users to the tools and information they need to
+      create reproducible research packages. The Whole Tale platform leverages
+      components from projects including <a
+      href="https://github.com/girder/girder">Girder</a>, <a
+      href="https://www.rocker-project.org/">The Rocker Project</a>, and <a
+      href="https://jupyter.org/">Project Jupyter</a>.
+tales:
+  - title: LIGO Tutorial
+    description: |
+      LIGO Detected Gravitational Waves from Black Holes
+      On September 14, 2015 at 5:51 a.m. Eastern Daylight Time (09:51 UTC), the 
+      twin Laser Interferometer Gravitational-wave Observatory (LIGO) detectors, 
+      located in Livingston, Louisiana, and Hanford, Washington, USA both 
+      measured ripples in the fabric of spacetime – gravitational waves – 
+      arriving at the Earth from a cataclysmic event in the distant universe. 
+    illustration: https://use.yt/upload/e922a8ac 
+  - title: Informatics-aided bandgap engineering for solar material
+    description: |
+      Reproducing "Informatics-aided bandgap engineering for solar materials"
+      This notebook shows how to replicate the main findings of a 2014 paper by
+      Dey et al that used machine learning to predict the band gap energies of
+      solar cell materials
+    illustration: https://raw.githubusercontent.com/JFChen3/benchmark_tests/master/dey-2014.png
+  - title: Predicting the Properties of Inorganic Materials with Machine Learning
+    description: |
+      properties of materials. The main focus of this paper was the construction
+      of general purpose method to link the composition of a material (i.e., the
+      fractions of each element) to its properties, which they found can be used
+      for as applications such as identifying candidate solar cell materials.
+      The notebooks within this tale recreate the validation tests from the
+      paper and how the models were used to discover new materials.
+    illustration:
+      https://raw.githubusercontent.com/WardLT/ward-npj-2016-examples/master/modeling-metallic-glasses/figures/alnizr_cover_image.png
+  - title: Replication of a classical - ecological niche model
+    description: |
+      MaxEnt modeling for species distribution. In 2006, Phillps, Anderson and
+      Shapire revisited estimation methods for probability density functions in
+      order to improve predictions for species presence in a given location.
+      This Tale replicates the logic and general results of the paper using the
+      same datasets in a Jupyter Notebook. In addition to this Tale, one that
+      uses the <i>scikit-learn</i> Python package for data analysis, a second
+      Tale is under development using intros-MaxEnt, a packaged aimed at
+      ecologists with better control structures.
+    illustration: http://scikit-learn.org/stable/_images/sphx_glr_plot_species_distribution_modeling_001.png
+  - title: Long-term Ecological Research Panoche Hills Ecological Reserve
+    description: |
+      This Tale explores <i>Ephedra california</i> as a foundation species
+      within the San Joaquin Desert, California. These data specific to
+      Panoche Hills Ecological Reserve. Meta-data provided with published data,
+      and most measures are self-evident and standard protocols for research
+      team. However, canopy decadence is not the typical Likert net 1-10 scale.
+      It can vary from 1-10, but this score is estimated by breaking each
+      canopy, visually into 5 segments, the four cardinal directions and top,
+      and scoring each as 0 for dead, 1 partial, and 2 for all alive.
+    illustration: https://raw.githubusercontent.com/cjlortie/LTER.PHER/gh-pages/EH.JPG
+  - title: Why-Not-What-If-Prov of ASP computation within ASP using PWE
+    description: |
+      We demonstrate using a ASP encoding for recording provenance of operations
+      in computation of a simple ASP.
+    illustration: https://i.ibb.co/GxjWM4t/Screen-Shot-2019-10-14-at-4-10-59-PM.png
+features:
+  - title: What is Whole Tale?
+    content: |
+      Whole Tale is an NSF-funded Data Infrastructure Building Block (DIBBS)
+      initiative to build a scalable, open source, web-based, multi-user
+      platform for reproducible research enabling the creation, publication, and
+      execution of tales – executable research objects that capture data, code,
+      and the complete software environment used to produce research findings.
+      
+      <p>A beta version of the system is available at https://dashboard.wholetale.org.</p>
+
+      The Whole Tale platform has been designed based on community input
+      primarily through working groups and collaborations with researchers.
+
+      <p>The Whole Tale project is involved in several initiatives to train
+      researchers for reproducibility as well as use of Whole Tale in the
+      classroom.</p>
+    image: img/wt02.png
+  - title: Why Whole Tale?
+    content: |
+      Virtually all published discoveries today have data and computational
+      components. There is a mismatch between traditional scientific
+      dissemination practices and modern computational research practice leads
+      to reproducibility concerns. The Whole Tale platform supports
+      computational reproducibility by enabling researchers to create and
+      package code, data and information about the workflow and computational
+      environment necessary to support review and reproduce results of
+      computational analysis that are reported in published research. Whole Tale
+      implements this definition by supporting explicit citation of externally
+      referenced data, capturing the artifacts and provenance information needed
+      to facilitate understanding, transparency, and execution of the
+      computational processes and workflows used for review and reproducibility
+      at the time of publication.
+    image: img/wt01.png
+  - title: What is a Tale?
+    content: |
+      A <i>tale</i> is an <b>executable research object</b> that combines data
+      (references), code (computational methods), computational environment, and
+      narrative (traditional science story). Tales are captured in a
+      standards-based format complete with metadata.
+    image: https://wholetale.readthedocs.io/en/stable/_images/tale_diagram.png
