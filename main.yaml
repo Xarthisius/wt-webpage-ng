@@ -32,7 +32,8 @@ tales:
       located in Livingston, Louisiana, and Hanford, Washington, USA both 
       measured ripples in the fabric of spacetime – gravitational waves – 
       arriving at the Earth from a cataclysmic event in the distant universe. 
-    illustration: https://use.yt/upload/e922a8ac 
+    illustration: https://use.yt/upload/e922a8ac
+    url: https://dashboard.wholetale.org/run/59f0b91584b7920001b46f2e
   - title: Informatics-aided bandgap engineering for solar material
     description: |
       Reproducing "Informatics-aided bandgap engineering for solar materials"
@@ -40,6 +41,7 @@ tales:
       Dey et al that used machine learning to predict the band gap energies of
       solar cell materials
     illustration: https://raw.githubusercontent.com/JFChen3/benchmark_tests/master/dey-2014.png
+    url: https://dashboard.wholetale.org/run/59e7c323ffdeda0001a3ff92
   - title: Predicting the Properties of Inorganic Materials with Machine Learning
     description: |
       properties of materials. The main focus of this paper was the construction
@@ -50,6 +52,7 @@ tales:
       paper and how the models were used to discover new materials.
     illustration:
       https://raw.githubusercontent.com/WardLT/ward-npj-2016-examples/master/modeling-metallic-glasses/figures/alnizr_cover_image.png
+    url: https://dashboard.wholetale.org/run/59fc7f9d60221d000163c37b
   - title: Replication of a classical - ecological niche model
     description: |
       MaxEnt modeling for species distribution. In 2006, Phillps, Anderson and
@@ -61,6 +64,7 @@ tales:
       Tale is under development using intros-MaxEnt, a packaged aimed at
       ecologists with better control structures.
     illustration: http://scikit-learn.org/stable/_images/sphx_glr_plot_species_distribution_modeling_001.png
+    url: https://dashboard.wholetale.org/run/5b48ce4f715d3400011e9c67
   - title: Long-term Ecological Research Panoche Hills Ecological Reserve
     description: |
       This Tale explores <i>Ephedra california</i> as a foundation species
@@ -72,11 +76,14 @@ tales:
       canopy, visually into 5 segments, the four cardinal directions and top,
       and scoring each as 0 for dead, 1 partial, and 2 for all alive.
     illustration: https://raw.githubusercontent.com/cjlortie/LTER.PHER/gh-pages/EH.JPG
+    url: https://dashboard.wholetale.org/run/5d080a16cc895d0f7434f884
   - title: Why-Not-What-If-Prov of ASP computation within ASP using PWE
     description: |
       We demonstrate using a ASP encoding for recording provenance of operations
       in computation of a simple ASP.
     illustration: https://i.ibb.co/GxjWM4t/Screen-Shot-2019-10-14-at-4-10-59-PM.png
+    url: https://dashboard.wholetale.org/run/5da4bff0cc895d0f7435d48a
+
 features:
   - title: What is Whole Tale?
     content: |

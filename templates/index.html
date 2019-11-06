@@ -103,7 +103,9 @@
       {% for tale in tales %}
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="{{tale['illustration']}}" alt=""></a>
+          <a href="{{tale['url']}}">
+            <img class="card-img-top" src="{{tale['illustration']}}" alt="">
+          </a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">{{tale["title"]}}</a>
