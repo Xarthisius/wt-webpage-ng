@@ -30,7 +30,7 @@ tales:
       On September 14, 2015 at 5:51 a.m. Eastern Daylight Time (09:51 UTC), the 
       twin Laser Interferometer Gravitational-wave Observatory (LIGO) detectors, 
       located in Livingston, Louisiana, and Hanford, Washington, USA both 
-      measured ripples in the fabric of spacetime – gravitational waves – 
+      measured ripples in the fabric of spacetime - gravitational waves - 
       arriving at the Earth from a cataclysmic event in the distant universe. 
     illustration: https://use.yt/upload/e922a8ac
     url: https://dashboard.wholetale.org/run/59f0b91584b7920001b46f2e
@@ -90,7 +90,7 @@ features:
       Whole Tale is an NSF-funded Data Infrastructure Building Block (DIBBS)
       initiative to build a scalable, open source, web-based, multi-user
       platform for reproducible research enabling the creation, publication, and
-      execution of tales – executable research objects that capture data, code,
+      execution of tales - executable research objects that capture data, code,
       and the complete software environment used to produce research findings.
       
       <p>A beta version of the system is available at https://dashboard.wholetale.org.</p>
