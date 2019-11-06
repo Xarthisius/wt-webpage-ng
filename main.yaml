@@ -63,7 +63,7 @@ tales:
       uses the <i>scikit-learn</i> Python package for data analysis, a second
       Tale is under development using intros-MaxEnt, a packaged aimed at
       ecologists with better control structures.
-    illustration: http://scikit-learn.org/stable/_images/sphx_glr_plot_species_distribution_modeling_001.png
+    illustration: https://scikit-learn.org/stable/_images/sphx_glr_plot_species_distribution_modeling_001.png
     url: https://dashboard.wholetale.org/run/5b48ce4f715d3400011e9c67
   - title: Long-term Ecological Research Panoche Hills Ecological Reserve
     description: |
