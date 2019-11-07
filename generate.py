@@ -1,7 +1,9 @@
 import yaml
 import os
-import sys
+import glob
+from markdown import Markdown
 from jinja2 import Environment, FileSystemLoader
+from shutil import copyfile
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_ENVIRONMENT = Environment(
@@ -31,11 +33,49 @@ def page(name, output_name=None):
 def index():
     return yaml.load(open("main.yaml", "r"))
 
+
 @page("team")
-def index():
+def team():
     data = yaml.load(open("main.yaml", "r"))
     data.update(yaml.load(open("team.yml", "r")))
     return data
+
+@page("news")
+def news():
+    parser = Markdown()
+    main = yaml.load(open("main.yaml", "r"))
+    data = dict(institutions=main.pop("institutions"))
+    data["news"] = []
+    for input_fname in sorted(glob.glob("_posts/*.md"), reverse=True):
+        with open(input_fname, "r") as input_file:
+            input_data = input_file.read()
+        yaml_data, html_data = (_.strip() for _ in input_data.split("---\n") if _)
+        post = yaml.load(yaml_data)
+        (year, month, day, title) = os.path.basename(input_fname)[:-3].split("-", 3)
+        post["url"] = "/{}/{}/{}/{}.html".format(year, month, day, title)
+        post["date"] = "{}/{}/{}".format(month, day, year)
+
+        short_blurb = "\n\n".join(html_data.strip().split('\n\n', 2)[:2])
+        post["content"] = parser.convert(short_blurb)
+        
+        data["news"].append(post)
+    return data
+
+
+def render_full_width_page(input_fname, output_fname):
+    parser = Markdown()
+
+    with open(input_fname, "r") as input_file:
+        input_data = input_file.read()
+    yaml_data, html_data = (_.strip() for _ in input_data.split("---\n") if _)
+
+    context = yaml.load(yaml_data)
+    context["content"] = parser.convert(html_data)
+
+    with open(output_fname, "w") as output_file:
+        html = render_template("full-width.html", context)
+        output_file.write(html)
+
 
 def main():
     for name in sorted(pages):
@@ -44,11 +84,27 @@ def main():
         dir_name = os.path.dirname(out_name)
         if not os.path.isdir(dir_name):
             os.makedirs(dir_name)
-        context = {"theme": "flatly", "title": name, "url_prefix": ""}
+        context = {"title": name}
         context.update(setup_func())
         with open(out_name, "w") as f:
+            print(template_name)
             html = render_template(template_name, context)
             f.write(html)
+
+    for post in sorted(glob.glob("_posts/*.md"), reverse=True):
+        path_elements = os.path.basename(post).split("-", 3)
+        full_input_name = os.path.join(*path_elements)
+        os.makedirs(os.path.dirname(full_input_name), exist_ok=True)
+        out_name = full_input_name[:-2] + "html"
+        render_full_width_page(post, out_name)
+
+    os.makedirs("internship_projects", exist_ok=True)
+    for project in glob.glob("_internship_projects/*.md"):
+        out_name = "internship_projects/" + os.path.basename(project)[:-2] + "html"
+        render_full_width_page(project, out_name)
+    
+    for image in glob.glob("_internship_projects/*.png"):
+        copyfile(image, image[1:])
 
 
 if __name__ == "__main__":

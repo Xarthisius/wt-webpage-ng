@@ -1,0 +1,345 @@
+---
+layout: post
+title: Summer Internships 2017
+subheading: 
+full_footer: false
+header_content: false
+---
+
+The Whole Tale is inviting Internship applications for 2017!
+
+Scholarly publications are often disconnected from the underlying data and code
+that was used to produce the findings. There is no shortage of tools and
+cyberinfrastructure (CI) addressing specific aspects of this challenge, yet
+scientists find it difficult to utilize these different pieces and building
+blocks in a seamless way that spans the “whole story”, i.e., from conducting
+the computational science to the publication of a “living” or executable
+paper. These new types of publications include not only the science narrative,
+but also (references to) all the relevant data, code, and provenance
+information needed to reproduce and experience the computational and research
+processes described by the paper.
+
+Whole Tale: _Merging Science and Cyberinfrastructure Pathways_ is an NSF-funded
+project that will enable researchers to examine, transform and then seamlessly
+re-publish research data that was used in an article. As a result, these
+"living articles" enable new discovery by allowing researchers to construct
+representations and syntheses of data. Whole Tale is a collaboration led by the
+University of Illinois, Urbana-Champaign, in collaboration with partners at the
+University of Chicago, the University of Texas at Austin, the University of
+California, Santa Barbara, and the University of Notre Dame. We are pleased to
+announce the availability of summer research internships for undergraduates,
+graduate students and recent postgraduates!
+
+### Schedule
+
+  * **March 27** - Application period opens
+  * **April 14 (CLOSED)** - Deadline for receipt of applications
+  * **Apr 25-28** - Notification of acceptance 
+  * **May 22** - Program begins
+  * **June 19** - Midterm evaluations
+  * **July 21** - Program concludes
+
+Some allowance will be made for students who are unavailable during these dates
+due to their school calendar
+
+### Program Information
+
+Interns undertake a 9-week program of work centered around one of the projects
+listed below. Each intern will be paired with one or more mentors. Interns need
+not necessarily be at the same location or institution as any of their mentors.
+Interns and mentors are expected to have a virtual or face-to-face meeting at
+the beginning of the summer, maintain frequent communication throughout the
+program and interns are required to keep an online notebook.
+
+### Eligibility
+
+The program is open to undergraduate students, graduate students, and
+postgraduates who have received their degree within the past five years. There
+are no restrictions on academic backgrounds or field of study (but see details
+below). Interns must be at least 18 years of age by the program start date,
+**must be currently enrolled or employed at a U.S. university or other research
+institution and must currently reside in, and be eligible to work in, the
+United States**. Interns are expected to be available approximately 40
+hours/week during the internship period with significant availability during
+the normal business hours.
+
+### Financial Support
+
+Interns will receive a stipend of $5,000 for participation, paid in two
+installments (one at the midterm and one at the conclusion of the program). In
+addition, if travel to a project meeting is necessary, required travel expenses
+will be borne by the Whole Tale project. Participation in the program after the
+mid-term is contingent on satisfactory performance. The University of Illinois,
+Urbana-Champaign will administer funds. Interns will need to supply their own
+computing equipment and internet connection. For students who are not US
+citizens or permanent residents, complete visa information will be required,
+and it may be necessary for the funds to be paid through the student’s
+university or research institution. In such cases, the student will need to
+provide the necessary contact information for their organization.
+
+### To Apply
+
+Required application materials include: 1) a resume that includes educational
+history, current position, any publications or honors, and full contact
+information (including phone number, e-mail address, and mailing address); 2) a
+cover letter identifying the project you are interested in, the contributions
+you expect to make to the project, relevant background, value of the internship
+program to your career objectives and your approach to meeting the project
+deliverables; and **optionally**: 3) a letter of reference.
+
+Applications must be completed and submitted no later than **April 14th
+(CLOSED).** Links to the application forms are provided below. Applicants are
+encouraged to provide a letter of reference.
+
+1. The cover letter should address the following questions:
+   * Which Whole Tale Summer Internship project(s) are you most interested in
+     and why?
+   * What contributions do you expect to be able to make to the project(s)?
+   * What background do you have which is relevant to the project(s)?
+   * What do you expect to learn and/or achieve by participating?
+   * What are your thoughts and ideas about the project, including particular suggestions for ways of achieving the project objectives?
+   * How will participation in this program help you achieve your educational and career objectives?
+   * Are there any factors that would affect your ability to participate, including other summer employment, university schedules, and other commitments?
+1. The resume should include the applicant’s educational history, current
+   position, any publications or honors, and full contact information
+   (including phone number, email address, and mailing address).
+1. The optional letter of reference should be should be from a professor,
+   supervisor, or other mentor. Please ask your letter-writer to **email** the
+   reference letter **directly to**
+   [wholetale-interns-2017@googlegroups.com](mailto:wholetale-interns-2017@googlegroups.com)
+   with a "CC" to [ludaesch@illinois.edu](mailto:ludaesch@illinois.edu).
+
+### Application Form
+
+[https://goo.gl/forms/vps6VK6EndKVek8w2](https://goo.gl/forms/vps6VK6EndKVek8w2).
+
+### Evaluation of Applications
+Applications will be judged by the following criteria:
+
+ * The academic and technical qualifications of the applicant.
+ * Evidence of strong written and oral communication skills.
+ * The extent to which the internship would be of value to the career
+   development of the applicant.
+ * The availability of the applicant during the period of the internship.
+
+### Intellectual Property
+
+Whole Tale is predicated on openness and universal access. Software is
+developed under one of several open source licenses, and copyrightable content
+produced during the course of the project will made available under a Creative
+Commons (CC-BY 3.0) license. Where appropriate, projects may result in
+published articles and conference presentations, on which the intern is
+expected to make a substantive contribution, and receive credit for that
+contribution.
+
+### Funding Acknowledgment
+
+Summer Internships are supported by National Science Foundation Award [1541450](
+https://www.nsf.gov/awardsearch/showAward?AWD_ID=1541450).
+
+### For more information...
+
+If you have questions or problems about the application process or internship
+program in general, please e-mail 
+[wholetale-interns-2017@googlegroups.com](wholetale-interns-2017@googlegroups.com).
+
+# Projects
+
+#### Project #1: Online Materials Science Modeling and Analytics
+
+**Primary Mentor:** Kyle Chard (University of Chicago)
+
+**Additional Mentor:** Ben Blaiszik/Logan Ward (University of Chicago / Argonne National Laboratory)
+
+**Necessary Prerequisites:**
+
+ * Programming experience (Ideally with Python)
+
+**Desirable Skills / Qualifications:**
+
+ * Experience with data analysis toolkits (e.g., Python Pandas, SciPy, R)
+ * Some experience with statistical modelling and/or machine learning
+ * Basic knowledge of materials science
+
+**Expected Outcomes:**
+
+ * Jupyter notebooks that reproduce published results using data contained in
+   MDF
+ * Published models, notebooks, and derived data
+ * New models created from mixing several MDF datasets
+ * Conversion and ingestion of existing materials datasets into MDF
+
+**Project Description:**
+
+There is a vast amount of materials science data (computational or
+experimental) available in repositories such as the Materials Data Facility
+(MDF), Materials Project, AFLOWLib, Citrination, and NOMAD, among others. While
+much of these data has been analyzed in isolation, little have been used
+collectively to develop new models and drive new discovery. In this project,
+the student will develop methods for accessing data contained within the MDF
+and other repositories directly from within Jupyter notebooks. Such a tool will
+enable better reproducibility and easier re-use for the increasingly common
+machine learning models created from materials data.
+
+After developing a model to access data, the student will then work to recreate
+several machine learning methods from the literature to explore these datasets,
+and then branch to applying these tools to new data. For example, the student
+will implement models that determine whether metallic alloys can be formed as
+glasses (see figure below). Having implemented these models and reproduced
+published results, the student will apply the underlying model to a wider range
+of data contained in the MDF. At this point, there are several possible routes
+for continuing the project, including benchmarking several machine learning
+methods using the same datasets or exploring how to best mix different data
+sources to train a single model. As a result of this work, the student will
+publish the resulting notebooks, models, and derived data in the MDF such that
+others can discover, reproduce, and build upon their work.
+
+![]({{"assets/images/internships/wt-proj-1_figure.png" | absolute_url}})
+
+Ability of different alloy compositions to form a metallic glass as (a)
+measured experimentally and (b) predicted with a machine learning model.
+Without being provided any data from the experimental data shown in (a), the
+model correctly identifies the locations of the two glass-forming regions in
+the Al-Ni-Zr alloy system. Ref: Ward et al. npj Compt. Mater.</span> (2016),
+16028.
+
+#### Project #2: Telling the Whole Tale Behind a Paleoclimate Reconstruction based on PaleoCAR
+
+**Primary Mentor:** Timothy McPhillips (UIUC: University of Illinois,
+Urbana-Champaign)
+
+**Additional Mentor:** Kyle Bocinsky (Washington State University), Bertram Ludaescher (UIUC)
+
+**Necessary Prerequisites:**
+
+ * R programming experience
+ * Interest in developing tools and methods for empowering researchers in the
+   data-intensive natural and social sciences
+
+**Desirable Skills / Qualifications:**
+
+ * Competency developing and running software, managing data, and automating
+   workflows via scripts on multiple computing platforms (ideally including
+   MacOS, Linux, and Windows; cloud-based computing environments in addition
+   would be a plus).
+ * Modern web development skills for rapid prototyping, e.g., using a
+   combination of Javascript-based UIs and REST-based backend services.
+ * Experience with one or more of the following:
+   * conceptual- and data modeling
+   * ontologies and logic-based knowledge representation 
+   * database queries and views
+   * logic programming such as with Datalog or Prolog
+   * electronic scientific notebooks
+   * scientific workflow management systems
+
+**Expected Outcomes:**
+
+ * Interactive browser-based environment for browsing, querying, and
+   visualizing the comprehensive history of a single PaleoCAR [BK14]
+   study.
+ * Based on this concrete example, a conceptual template for representing the
+   full provenance of any research study carried out using WT tools and
+   environments.
+
+**Project Description:**
+
+The goal of this project is to create an integrated representation of all
+dimensions of the provenance of the results of particular scientific study. The
+study will employ PaleoCAR [BK14] to reconstruct environmental conditions of a
+particular paleoenvironment.
+
+The elements of the resulting comprehensive provenance model of this PaleoCAR
+study will include:  (1) graphical, queryable representations of each of the
+computational workflows enacted as part of the research and corresponding to
+the prospective provenance all data products generated during the study; (2)
+the retrospective provenance of each such intermediate and final data product
+complete with records of the specific program executions involved, the values
+of program arguments applied, and--where possible--the values of key variables
+within the programs themselves as exposed by YesWorkflow [YW];  (3) the
+provenance of all data used by the study but obtained from sources outside the
+study including public data repositories; (4) the intellectual and scholarly
+lineage of the scientific, computational, and statistical methods employed in
+the study; (5) the provenance and dependencies of all software programs,
+libraries, and components used in the study; and (6) the network of connections
+between the preceding 5 categories of provenance, e.g. the chains of citations
+to scientific literature reporting the invention, evaluation, and application
+of the methods and software components used in the study.
+
+We expect that this project will yield insights into what new tools researchers
+need, and what new capabilities must to be added to the tools and environments
+they already use, if we are to make it easy for them to present their studies
+in the context of the rich, integrated provenance this project will illustrate.
+
+**References**:
+
+ * [BK14] Bocinsky, R. K. and Kohler, T. A. (2014). [A 2,000-year
+   reconstruction of the rain-fed maize agricultural niche in the US
+   Southwest](http://www.nature.com/articles/ncomms6618). Nature
+   Communications, 5:5618. doi:10.1038/ncomms6618. (see [Science Daily
+   article](https://www.sciencedaily.com/releases/2014/12/141204074309.htm) for
+   a quick intro)
+ * [YW] YesWorkflow toolkit. [github.com/yesworkflow-org/yw-prototypes](https://github.com/yesworkflow-org/yw-prototypes)
+
+#### Project #3: Understanding Requirements for Infrastructure to Promote Reproducible Research
+
+**Primary Mentor:** Peter Darch (University of Illinois at Urbana-Champaign)
+
+**Additional Mentor:** Victoria Stodden (University of Illinois at
+Urbana-Champaign)
+
+**Necessary Prerequisites:**
+
+This project is suitable for students in, or graduates of, library and
+information science degree programs.
+
+**Desirable Skills / Qualifications:**
+
+ * Academic courses about scientific information (such as data curation, or
+   scientific communication practices)
+ * Experience with working in scientific information management settings or
+   scientific collaboration
+ * Experience with conducting qualitative research (interviews, observation)
+ * Experience with requirements analysis (particularly use case approaches) for
+   software and systems engineering
+ 
+
+**Expected Outcomes:**
+
+ * Report on information practices and needs of a team of scientific researchers
+ * Recommendations for improving information practices within this team
+ * A series of use cases representing this team’s requirements for
+   infrastructure to promote reproducible research.
+
+**Project Description:**
+
+The task of building infrastructure that supports and promotes reproducible
+science involves addressing multiple challenges. One major challenge involves
+understanding the existing practices and requirements of the domain researchers
+for whom the infrastructure will be built. Developing this understanding is
+critical for: identifying where infrastructure development is best targeted;
+specifying what features should be incorporated into this infrastructure; and
+ensuring that researchers are able to integrate this infrastructure easily into
+their work practices.
+
+This project will involve studying a team of researchers from one of the Whole
+Tale Science Pathways domains (astronomy, archaeology, material science,
+biology/genomics, social science, disaster resilience): the particular domain
+will be selected to closely match with your own interests/background.
+
+You will work with the research team to learn about their work and information
+practices. These practices include: how they produce, manage, and use data and
+software; whether and how they make their data and software accessible to
+others; and their associated record-keeping practices. Your work will involve
+interviewing team members about their practices, and observing them at
+work.
+
+After identifying the team’s existing information practices, you will explore
+what infrastructure and practices could make this team’s work more
+reproducible. In addition, you may also identify particular barriers and
+challenges to introducing new infrastructure and practices into the work
+practices of the team.
+
+Based on your findings, you will formulate a series of use cases. These use
+cases will represent your findings to software engineers who are building
+infrastructure to promote reproducible research.
+
