@@ -1,0 +1,104 @@
+team:
+  - name: Bertram Ludaescher
+    role: Principal Investigator
+    image: /img/people/bludaescher.jpg 
+    institution: School of Information Sciences & National Center for
+      Supercomputing Applications (NCSA), University of Illinois at
+      Urbana-Champaign
+  - name: Kyle Chard
+    role: Co-Investigator
+    image: /img/people/kchard.jpg
+    institution: Computation Institute, University of Chicago and Argonne
+      National Laboratory
+  - name: Niall Gaffney
+    role: Co-Investigator
+    github: nigaffney
+    institution: Texas Advanced Computing Center (TACC), University of Texas at
+      Austin
+  - name: Matthew Jones
+    role: Co-Investigator
+    github: mbjones
+    institution: Director of Informatics Research and Development, University
+      of California at Santa Barbara
+  - name: Jarek Nabrzyski
+    role: Co-Investigator
+    institution: Director of Research Computing, University of Notre Dame
+    image: /img/people/jnabrzyski.jpg
+  - name: Victoria Stodden
+    role: Co-Investigator
+    image: /img/people/vcs2.jpg
+    institution: School of Information Sciences & National Center for
+      Supercomputing Applications (NCSA), University of Illinois at
+      Urbana-Champaign
+  - name: Matthew Turk
+    role: Co-Investigator
+    image: /img/people/mturk.jpg 
+    institution: School of Information Sciences & National Center for
+      Supercomputing Applications (NCSA), University of Illinois at
+      Urbana-Champaign
+  - name: Mary Terese Campbell
+    role: Project Manager
+    image: /img/people/mtcampbell.jpg
+    institution: School of Information Sciences, University of Illinois
+  - name: Kristina Furse Davis
+    role: UI/UX Expert
+    image: /img/people/kdavis.jpg
+    institution: Center for Research Computing, University of Notre Dame
+  - name: Mihael Hategan
+    role: Software Developer
+    image: /img/people/mhategan.jpg
+    institution: Computation Institute, University of Chicago and Argonne
+      National Laboratory
+  - name: Kacper Kowalik
+    role: Software Architect
+    image: /img/people/kkowalik.jpg 
+    institution: University of Illinois & National Center for Supercomputing
+      Applications (NCSA)
+  - name: Mike Lambert
+    role: Software Developer
+    github: bodom0015
+    institution: University of Illinois & National Center for Supercomputing Applications (NCSA)
+  - name: Thomas Thelen
+    role: Software Developer
+    image: /img/people/tthelen.jpg
+    institution: NCEAS, University of California at Santa Barbara
+  - name: Craig Willis
+    role: Software Developer
+    github: craig-willis
+    institution: University of Illinois & National Center for Supercomputing Applications (NCSA)
+    image: /img/people/cwillis.jpg
+former:  
+  - name: Adam Brinckman
+    role: Software Developer
+    github: abrinckm
+    institution: University of Notre Dame
+    image: /img/people/abrinckman.jpg
+  - name: Sivakumar (Siva) Kulasekaran
+    role: Software Developer
+    github: aksivakumar
+    institution: Texas Advanced Computing Center (TACC), University of Texas at
+      Austin
+  - name: Bryce Mecum
+    role: Software Developer
+    image: /img/people/bmecum.jpg
+    github: amoeba
+    institution: University of California at Santa Barbara
+  - name: Damian Perez
+    role: Software Developer
+    github: cyberdante
+    institution: University of Notre Dame
+  - name: Ian Taylor
+    role: Software Developer
+    github: ian-taylor
+    institution: University of Notre Dame
+    image: /img/people/itaylor.jpg
+  - name: Kandace Turner
+    role: Project Manager
+    image: /img/people/kturner.jpg
+    institution: University of Illinois & National Center for Supercomputing
+      Applications (NCSA)
+  - name: Sebastian Wyngaard
+    role: Software Developer
+    github: swyngaard
+    image: /img/people/swyngaard.jpg
+    institution: University of Notre Dame

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="The Whole Tale Project Team Members">
+  <meta name="author" content="">
+
+  <link rel="icon" href="/favicon.ico">
+  <title>The Whole Tale</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% include "nav.html" %}
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">The Whole Tale
+      <small>Team Members</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Team</li>
+    </ol>
+
+    <!-- Intro Content -->
+    <!--
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h2>About Modern Business</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+      </div>
+    </div>
+    <!-- /.row -->
+    -->
+
+    <!-- Team Members -->
+    <h2>Our Team</h2>
+
+    <div class="row">
+      {% for member in team %}
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          {% if "image" in member %}
+            <img class="card-img-top" src="{{member['image']}}" alt="">
+          {% else %}
+            <img class="card-img-top" src="https://github.com/{{member['github']}}.png?size=300" alt="">
+          {% endif %}
+          <div class="card-body">
+            <h4 class="card-title">{{member["name"]}}</h4>
+            <h6 class="card-subtitle mb-2 text-muted">{{member["role"]}}</h6>
+            <p class="card-text">{{member["institution"]}}</p>
+          </div>
+          <!--
+          <div class="card-footer">
+            <a href="#">{{member["email"]}}</a>
+          </div>
+          -->
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- /.row -->
+    
+    <h2>Former Members</h2>
+    <div class="row">
+      {% for member in former %}
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100 text-center">
+          {% if "image" in member %}
+            <img class="card-img-top" src="{{member['image']}}" alt="">
+          {% else %}
+            <img class="card-img-top" src="https://github.com/{{member['github']}}.png?size=300" alt="">
+          {% endif %}
+          <div class="card-body">
+            <h4 class="card-title">{{member["name"]}}</h4>
+            <h6 class="card-subtitle mb-2 text-muted">{{member["role"]}}</h6>
+            <p class="card-text">{{member["institution"]}}</p>
+          </div>
+          <!--
+          <div class="card-footer">
+            <a href="#">{{member["email"]}}</a>
+          </div>
+          -->
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  {% include "footer.html" %}
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -31,6 +31,11 @@ def page(name, output_name=None):
 def index():
     return yaml.load(open("main.yaml", "r"))
 
+@page("team")
+def index():
+    data = yaml.load(open("main.yaml", "r"))
+    data.update(yaml.load(open("team.yml", "r")))
+    return data
 
 def main():
     for name in sorted(pages):
