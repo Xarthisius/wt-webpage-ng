@@ -39,6 +39,10 @@ def index():
 def participate():
     return yaml.load(open("univs.yaml", "r"))
 
+@page("maintenance")
+def maintenance():
+    return yaml.load(open("univs.yaml", "r"))
+
 @page("team")
 def team():
     data = yaml.load(open("univs.yaml", "r"))

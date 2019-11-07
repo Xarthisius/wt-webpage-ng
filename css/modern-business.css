@@ -32,3 +32,9 @@ body {
 .support-logos {
     text-align: center;
 }
+
+.wtcontainer {
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+}
