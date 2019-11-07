@@ -31,20 +31,24 @@ def page(name, output_name=None):
 
 @page("index")
 def index():
-    return yaml.load(open("main.yaml", "r"))
+    data = yaml.load(open("univs.yaml", "r"))
+    data.update(yaml.load(open("main.yaml", "r")))
+    return data
 
+@page("participate")
+def participate():
+    return yaml.load(open("univs.yaml", "r"))
 
 @page("team")
 def team():
-    data = yaml.load(open("main.yaml", "r"))
+    data = yaml.load(open("univs.yaml", "r"))
     data.update(yaml.load(open("team.yml", "r")))
     return data
 
 @page("news")
 def news():
     parser = Markdown()
-    main = yaml.load(open("main.yaml", "r"))
-    data = dict(institutions=main.pop("institutions"))
+    data = yaml.load(open("univs.yaml", "r"))
     data["news"] = []
     for input_fname in sorted(glob.glob("_posts/*.md"), reverse=True):
         with open(input_fname, "r") as input_file:

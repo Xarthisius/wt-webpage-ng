@@ -132,19 +132,3 @@ features:
       interactively create and edit Tales and to re-run a Tale to reproduce and
       verify results as obtained by the original Tale creator.
     image: https://wholetale.readthedocs.io/en/stable/_images/tale_diagram.png
-institutions:
-  - name: University of Illinois
-    image: uiuc-200.png
-    link: http://illinois.edu/
-  - name: University of Chicago
-    image: uc-200.png
-    link: http://www.uchicago.edu/
-  - name: University of California Santa Barbara
-    image: ucsb-200.png
-    link: http://www.ucsb.edu/
-  - name: University of Texas at Austin
-    image: ut-200.png
-    link: http://www.utexas.edu/
-  - name: University of Notre Dame
-    image: nd-200.png
-    link: http://www.nd.edu/
