@@ -8,7 +8,9 @@ RUN apt-get update -qqy \
   && DEBIAN_FRONTEND=noninteractive apt-get -qy install \
     python3-yaml \
     python3-jinja2 \
-    python3-markdown \
+    python3-pip \
+  && python3 -m pip install pymdown-extensions \
+  && apt-get remove -y python3-pip \
   && apt-get -qqy clean all \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 

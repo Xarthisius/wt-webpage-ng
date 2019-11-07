@@ -35,13 +35,16 @@ def index():
     data.update(yaml.load(open("main.yaml", "r")))
     return data
 
+
 @page("participate")
 def participate():
     return yaml.load(open("univs.yaml", "r"))
 
+
 @page("maintenance")
 def maintenance():
     return yaml.load(open("univs.yaml", "r"))
+
 
 @page("team")
 def team():
@@ -49,9 +52,10 @@ def team():
     data.update(yaml.load(open("team.yml", "r")))
     return data
 
+
 @page("news")
 def news():
-    parser = Markdown()
+    parser = Markdown(extensions=["pymdownx.tilde"])
     data = yaml.load(open("univs.yaml", "r"))
     data["news"] = []
     for input_fname in sorted(glob.glob("_posts/*.md"), reverse=True):
@@ -63,15 +67,15 @@ def news():
         post["url"] = "/{}/{}/{}/{}.html".format(year, month, day, title)
         post["date"] = "{}/{}/{}".format(month, day, year)
 
-        short_blurb = "\n\n".join(html_data.strip().split('\n\n', 2)[:2])
+        short_blurb = "\n\n".join(html_data.strip().split("\n\n", 2)[:2])
         post["content"] = parser.convert(short_blurb)
-        
+
         data["news"].append(post)
     return data
 
 
 def render_full_width_page(input_fname, output_fname):
-    parser = Markdown()
+    parser = Markdown(extensions=["pymdownx.tilde"])
 
     with open(input_fname, "r") as input_file:
         input_data = input_file.read()
@@ -110,7 +114,7 @@ def main():
     for project in glob.glob("_internship_projects/*.md"):
         out_name = "internship_projects/" + os.path.basename(project)[:-2] + "html"
         render_full_width_page(project, out_name)
-    
+
     for image in glob.glob("_internship_projects/*.png"):
         copyfile(image, image[1:])
 
