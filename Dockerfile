@@ -1,6 +1,4 @@
-FROM node:10
-
-EXPOSE 8000
+FROM node:10 AS builder
 
 ENV LC_ALL=C.UTF-8 LANG=C.UTF-8
 
@@ -20,5 +18,20 @@ WORKDIR /home/node/app
 
 RUN npm install && ./node_modules/.bin/gulp
 RUN python3 generate.py
+RUN mkdir dist \
+ && mv img dist \
+ && mv css dist \
+ && mv 2017 dist \
+ && mv 2018 dist \
+ && mv 2019 dist \
+ && mv vendor dist \
+ && mv *.html dist
+
+FROM python:3.7-slim-buster
+
+EXPOSE 8000
+WORKDIR /srv
+
+COPY --from=builder /home/node/app/dist /srv/
 
 CMD ["python3", "-m", "http.server"]
