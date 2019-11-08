@@ -40,9 +40,9 @@
       <div class="col-lg-4 mb-4">
         <div class="card h-100 text-center">
           {% if "image" in member %}
-            <img class="card-img-top" src="{{member['image']}}" alt="">
+            <img class="card-img-top lazyload" data-src="{{member['image']}}" alt="">
           {% else %}
-            <img class="card-img-top" src="https://github.com/{{member['github']}}.png?size=300" alt="">
+            <img class="card-img-top lazyload" data-src="https://github.com/{{member['github']}}.png?size=300" alt="">
           {% endif %}
           <div class="card-body">
             <h4 class="card-title">{{member["name"]}}</h4>
@@ -66,9 +66,9 @@
       <div class="col-lg-4 mb-4">
         <div class="card h-100 text-center">
           {% if "image" in member %}
-            <img class="card-img-top" src="{{member['image']}}" alt="">
+            <img class="card-img-top lazyload" data-src="{{member['image']}}" alt="">
           {% else %}
-            <img class="card-img-top" src="https://github.com/{{member['github']}}.png?size=300" alt="">
+            <img class="card-img-top lazyload" data-src="https://github.com/{{member['github']}}.png?size=300" alt="">
           {% endif %}
           <div class="card-body">
             <h4 class="card-title">{{member["name"]}}</h4>
