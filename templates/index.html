@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Whole Tale will enable researchers to examine, transform and then seamlessly republish research data that was used in an article. As a result, these &quot;living ...">
-  <meta name="author" content="">
-  <link rel="icon" href="/favicon.ico">
-  <title>The Whole Tale</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  {% include "nav.html" %}
-
+{% block head %}
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <!--
@@ -53,8 +31,9 @@
       -->
     </div>
   </header>
+{% endblock %}
 
-  <!-- Page Content -->
+{% block content %}
   <div class="container">
 
     <h1 class="my-4">Welcome to the Whole Tale Project</h1>
@@ -163,14 +142,4 @@
 
   </div>
   <!-- /.container -->
-    
-  <!-- Footer -->
-  {% include "footer.html" %}
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+{% endblock %}    

@@ -3,3 +3,5 @@ public/*.html
 public/201*
 public/vendor
 internship_projects
+.firebase
+token
