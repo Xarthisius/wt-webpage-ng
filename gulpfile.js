@@ -39,7 +39,9 @@ function modules() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./public/vendor/jquery'));
-  return merge(bootstrap, jquery);
+  var lazysizes = gulp.src('./node_modules/lazysizes/lazysizes.min.js')
+    .pipe(gulp.dest('./public/vendor/lazysizes'));
+  return merge(bootstrap, jquery, lazysizes);
 }
 
 // Watch files
