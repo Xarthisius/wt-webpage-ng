@@ -14,6 +14,7 @@
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active" style="background-image: url('https://raw.githubusercontent.com/whole-tale/whole-tale.github.io/master/assets/images/whole_tale_banner_enhanced.png')">
           <div class="carousel-caption d-md-block">
+			<img class="img-fluid" src="/img/whole_tale_logo_text_long_light.png">
             <h3>Reproducibility Simplified</h3>
             <p>Use Whole Tale to empower and share your research</p>
           </div>
@@ -36,14 +37,14 @@
 {% block content %}
   <div class="container">
 
-    <h1 class="my-4">Welcome to the Whole Tale Project</h1>
+    <h1 class="my-4"></h1>
 
     <!-- Marketing Icons Section -->
     <div class="row">
       {% for item in highlights %}
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">{{item["title"]}}</h4>
+          <!--h4 class="card-header">{{item["title"]}}</h4-->
           <div class="card-body">
             <p class="card-text">{{item["text"]}}</p>
           </div>
@@ -66,7 +67,7 @@
           </div>
       {% endif %}
           <div class="col-lg-6">
-            <h2>{{item["title"]}}</h2>
+			  <h2><a name="{{item['name']}}">{{item["title"]}}</a></h2>
             {{item["content"]}}
           </div>
       {% if not loopeven %}
@@ -79,7 +80,7 @@
     <!-- /.row -->
     
     <!-- Tales Section -->
-    <h2>Featured Tales</h2>
+	<h2><a name="featured">Featured Tales</a></h2>
 
     <div class="row">
       {% for tale in tales %}

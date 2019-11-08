@@ -1,28 +1,20 @@
 highlights:
-  - title: Open Source Platform
+  - title: Try Whole Tale
     text: |
-      The Whole Tale project is developing an open source platform and welcomes
-      both re-use and contribution from the research infrastructure community.
-      As a building block, the platform is intended to be deployable in a
-      variety of environments, including the primary service at
-      <a href="https://dashboard.wholetale.org">
-      https://dashboard.wholetale.org</a>.
-  - title: Open Source Curriculum
+        Use Whole Tale to create and publish your own transparent and reproducible research.
+    button_text: Try it
+    button_url: https://dashboard.wholetale.org
+  - title: Explore
     text: |
-      The Whole Tale project is dedicated to the improvement of education and
-      training for reproducible research practices through the creation of open
-      lessons both for classroom instruction and through contributions to
-      programs such as the Carpentries.
-  - title: Open Infrastructure
+      Explore existing reproducible research created using Whole Tale.
+    button_text: Explore
+    button_url: "#featured"
+  - title: Learn
     text: |
-      The Whole Tale project aspires to contribute to and increase the impact of
-      existing open infrastructure projects. The success of Whole Tale depends
-      on our ability to connect users to the tools and information they need to
-      create reproducible research packages. The Whole Tale platform leverages
-      components from projects including <a
-      href="https://github.com/girder/girder">Girder</a>, <a
-      href="https://www.rocker-project.org/">The Rocker Project</a>, and <a
-      href="https://jupyter.org/">Project Jupyter</a>.
+      Learn more about Whole Tale, an open source platform
+      for reproducible research.  
+    button_text: Learn more
+    button_url: "#what-wt"
 tales:
   - title: LIGO Tutorial
     description: |
@@ -86,6 +78,7 @@ tales:
 
 features:
   - title: What is Whole Tale?
+    name: what-wt
     content: |
       Whole Tale is an NSF-funded Data Infrastructure Building Block (DIBBS)
       initiative to build a scalable, open source, web-based, multi-user
@@ -103,6 +96,7 @@ features:
       classroom.</p>
     image: img/wt02.png
   - title: Why Whole Tale?
+    name: why-wt
     content: |
       Virtually all published discoveries today have data and computational
       components. There is a mismatch between traditional scientific
@@ -119,6 +113,7 @@ features:
       at the time of publication.
     image: img/wt01.png
   - title: What is a Tale?
+    name: what-tale
     content: |
       A <i>tale</i> is an <b>executable research object</b> that combines data
       (references), code (computational methods), computational environment, and
