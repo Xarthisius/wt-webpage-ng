@@ -98,7 +98,7 @@ def main():
             os.makedirs(dir_name)
         context = {"title": name}
         context.update(setup_func())
-        with open(out_name, "w") as f:
+        with open("public/" + out_name, "w") as f:
             print(template_name)
             html = render_template(template_name, context)
             f.write(html)
@@ -106,17 +106,19 @@ def main():
     for post in sorted(glob.glob("_posts/*.md"), reverse=True):
         path_elements = os.path.basename(post).split("-", 3)
         full_input_name = os.path.join(*path_elements)
-        os.makedirs(os.path.dirname(full_input_name), exist_ok=True)
-        out_name = full_input_name[:-2] + "html"
+        os.makedirs("public/" + os.path.dirname(full_input_name), exist_ok=True)
+        out_name = "public/" + full_input_name[:-2] + "html"
         render_full_width_page(post, out_name)
 
-    os.makedirs("internship_projects", exist_ok=True)
+    os.makedirs("public/internship_projects", exist_ok=True)
     for project in glob.glob("_internship_projects/*.md"):
-        out_name = "internship_projects/" + os.path.basename(project)[:-2] + "html"
+        out_name = (
+            "public/internship_projects/" + os.path.basename(project)[:-2] + "html"
+        )
         render_full_width_page(project, out_name)
 
     for image in glob.glob("_internship_projects/*.png"):
-        copyfile(image, image[1:])
+        copyfile(image, "public/" + image[1:])
 
 
 if __name__ == "__main__":
