@@ -111,7 +111,7 @@ features:
       to facilitate understanding, transparency, and execution of the
       computational processes and workflows used for review and reproducibility
       at the time of publication.
-    image: img/wt01.png
+    image: img/wt01.svg
   - title: What is a Tale?
     name: what-tale
     content: |
