@@ -62,8 +62,8 @@
       {% for item in features %}
       {% set loopeven = loop.index is divisibleby 2 %}
       {% if loopeven %}
-          <div class="col-lg-6">
-            <img class="img-fluid rounded lazyload" data-src="{{item['image']}}" alt="">
+          <div class="col-lg-6 text-center">
+            <img class="img-fluid rounded lazyload" data-src="{{item['image']}}" alt="" style="max-width: 400px;">
           </div>
       {% endif %}
           <div class="col-lg-6">
@@ -71,8 +71,8 @@
             {{item["content"]}}
           </div>
       {% if not loopeven %}
-          <div class="col-lg-6">
-            <img class="img-fluid rounded lazyload" data-src="{{item['image']}}" alt="">
+          <div class="col-lg-6 text-center">
+            <img class="img-fluid rounded lazyload" data-src="{{item['image']}}" alt="" style="max-width: 400px;">
           </div>
       {% endif %}
       {% endfor %}
