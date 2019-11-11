@@ -94,7 +94,7 @@ features:
       <p>The Whole Tale project is involved in several initiatives to train
       researchers for reproducibility as well as use of Whole Tale in the
       classroom.</p>
-    image: img/wt02.png
+    image: img/wt02.svg
   - title: Why Whole Tale?
     name: why-wt
     content: |
