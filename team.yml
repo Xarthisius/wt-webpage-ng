@@ -40,6 +40,10 @@ team:
     role: Project Manager
     image: /img/people/mtcampbell.jpg
     institution: School of Information Sciences, University of Illinois
+  - name: Elias Chalhoub
+    role: Software Developer
+    image: /img/people/echalhoub.jpg
+    institution: Texas Advanced Computing Center, University of Texas at Austin
   - name: Kristina Furse Davis
     role: UI/UX Expert
     image: /img/people/kdavis.jpg
