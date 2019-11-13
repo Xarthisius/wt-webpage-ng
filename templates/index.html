@@ -49,7 +49,10 @@
             <p class="card-text">{{item["text"]}}</p>
           </div>
           <div class="card-footer">
-			  <a href="{{item['button_url']}}" class="btn btn-primary">{{item.get("button_text", "Learn More")}}</a>
+            <button type="button" class="btn btn-primary"
+                    onclick="redirectGirder(this, '{{item.button_url}}')">
+              {{item.get("button_text", "Learn More")}}
+            </button>
           </div>
         </div>
       </div>
@@ -86,12 +89,12 @@
       {% for tale in tales %}
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="{{tale['url']}}">
+          <a onclick="redirectGirder(this, '{{tale.url}}')">
             <img class="card-img-top lazyload" data-src="{{tale['illustration']}}" alt="">
           </a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="{{tale['url']}}">{{tale["title"]}}</a>
+              <a onclick="redirectGirder(this, '{{tale.url}}')">{{tale["title"]}}</a>
             </h4>
             <p class="card-text">{{tale["description"]}}</p>
           </div>

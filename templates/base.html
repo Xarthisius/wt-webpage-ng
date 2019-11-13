@@ -75,6 +75,24 @@
   <script src="/vendor/jquery/jquery.min.js"></script>
   <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/vendor/lazysizes/lazysizes.min.js" async=""></script>
+  <script type="text/javascript">
+    function redirectGirder(element, redirectUrl) {
+      var uri = "https://dashboard.wholetale.org" + redirectUrl + '?token={girderToken}';
+      console.log(uri);
+      $.ajax({
+        type: "GET",
+        dataType: "json",
+        url: "https://girder.wholetale.org/api/v1/oauth/provider",
+        data: {
+          redirect: uri,
+          list: false
+        },
+        success: function(resp) {
+          window.location = resp.Globus;
+        }
+      });
+    }
+  </script>
 
 </body>
 
