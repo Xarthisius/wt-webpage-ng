@@ -78,7 +78,6 @@
   <script type="text/javascript">
     function redirectGirder(element, redirectUrl) {
       var uri = "https://dashboard.wholetale.org" + redirectUrl + '?token={girderToken}';
-      console.log(uri);
       $.ajax({
         type: "GET",
         dataType: "json",
@@ -92,6 +91,10 @@
         }
       });
     }
+
+    $('.redirectGirder').click( function(e) {
+       e.preventDefault();
+    });
   </script>
 
 </body>
