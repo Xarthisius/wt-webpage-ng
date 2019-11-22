@@ -63,6 +63,12 @@ team:
     github: bodom0015
     institution: National Center for Supercomputing Applications, University of Illinois at
       Urbana-Champaign
+  - name: Timothy McPhillips
+    role: Software Developer
+    github: tmcphillips
+    institution: National Center for Supercomputing Applications, University of Illinois at
+      Urbana-Champaign
+    image: /img/people/tmcphillips.jpg
   - name: Thomas Thelen
     role: Software Developer
     image: /img/people/tthelen.jpg
