@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Whole Tale will enable researchers to examine, transform and then seamlessly republish research data that was used in an article. As a result, these &quot;living ...">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
+  <title>The Whole Tale</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">
+        <img class="img-fluid rounded logo" src="/img/whole_tale_logo_text_long_light.png" alt="">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="/team.html">Team</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/news.html">News</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/participate.html">Participate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://wholetale.readthedocs.io/en/stable/README.html">Docs</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   
+  
+
+  <!-- Page Content -->
+  
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">
+      
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="/news.html">News</a>
+      </li>
+      
+      <li class="breadcrumb-item">
+        <a href="/2018/03/08/internships.html">Summer Internships 2018</a>
+      </li>
+      
+      <li class="breadcrumb-item active"></li>
+    </ol>
+
+    <h1>Analyzing Bias in Machine Learning Research</h1>
+<h2>Projection Description</h2>
+<p>Communicating research among colleagues, peers, and community at large is bread
+and butter of researchers. While doing this, it is their responsibility to
+follow some basic principles like transparency and accuracy. Bias is any
+deviation from truth in data collection, analysis, interpretation  and
+publication. </p>
+<p>Recently, a diverse group of stakeholders representing academia, funding
+agencies, publishers and librarians have started an effort to design clear and
+measurable principles for scientific data management and stewardship called
+FAIR Data Principles. FAIR stands for Findability, Accessibility,
+Interoperability,  and Reusability of data. With more and more researchers
+following these principles it has been becoming more and more feasible to
+analyze papers of other scientists. Through being able to access the data and
+methods that were used to prove particular hypotheses one can repeat and/or
+reproduce the original experiment from a paper. </p>
+<p>This project will focus on analysing bias in machine learning research, based
+on some small (feasible for a 10 week internship) number of  journal papers.
+The papers will be carefully selected from major machine learning journals and
+conferences, and from various science and engineering fields. </p>
+<h2>Necessary Prerequisites:</h2>
+<ul>
+<li>Basic statistical data analysis skills are required</li>
+<li>Basic Python programming skills are required </li>
+</ul>
+<h2>Desirable Skills / Qualifications:</h2>
+<ul>
+<li>Understanding p-hacking methods </li>
+</ul>
+<h2>Expected Outcomes:</h2>
+<ul>
+<li>Bi-weekly presentation to other internship/REU students. Notre Dame's
+   Center for Research Computing has an active REU program with participation
+   of over 20 students every summer</li>
+<li>Each analyzed paper will be delivered in the form of a WholeTale container.</li>
+<li>Support from the WholeTale dev team will be provided as needed</li>
+<li>Final poster presentation</li>
+</ul>
+<p><strong>Primary Mentor</strong>: Jarek Nabrzyski, Center for Research Computing at Notre Dame</p>
+<p><strong>Secondary Mentor(s)</strong>: Jessica Young, Center for Social Research at Notre Dame</p>
+
+  </div>
+  <!-- /.container -->
+
+    
+  <!-- Footer -->
+  <footer class="py-2 bg-dark">
+    <div class="container">
+      <div class="row">
+        
+      </div>
+      <p class="m-0 text-center text-white">This material is based upon work supported by the National Science Foundation under Grant No. OAC-1541450. Copyright &copy; Wholetale 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/lazysizes/lazysizes.min.js" async=""></script>
+  <script type="text/javascript">
+    function redirectGirder(element, redirectUrl) {
+      var uri = "https://dashboard.wholetale.org" + redirectUrl + '?token={girderToken}';
+      $.ajax({
+        type: "GET",
+        dataType: "json",
+        url: "https://girder.wholetale.org/api/v1/oauth/provider",
+        data: {
+          redirect: uri,
+          list: false
+        },
+        success: function(resp) {
+          window.location = resp.Globus;
+        }
+      });
+    }
+
+    $('.redirectGirder').click( function(e) {
+       e.preventDefault();
+    });
+  </script>
+
+</body>
+
+</html>

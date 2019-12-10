@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Whole Tale will enable researchers to examine, transform and then seamlessly republish research data that was used in an article. As a result, these &quot;living ...">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
+  <title>The Whole Tale</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">
+        <img class="img-fluid rounded logo" src="/img/whole_tale_logo_text_long_light.png" alt="">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="/team.html">Team</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/news.html">News</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/participate.html">Participate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://wholetale.readthedocs.io/en/stable/README.html">Docs</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   
+  
+
+  <!-- Page Content -->
+  
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Benchmarking Machine Learning Methods in Materials Science
+      
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="/news.html">News</a>
+      </li>
+      
+      <li class="breadcrumb-item">
+        <a href="/2019/04/04/internships.html">Summer Internships 2019</a>
+      </li>
+      
+      <li class="breadcrumb-item active">Benchmarking Machine Learning Methods in Materials Science</li>
+    </ol>
+
+    <h2>Project Description</h2>
+<p>Machine learning models offer many advantages over other methods in the design
+of new materials. For example, machine learning models can be much faster than
+conventional, physics-based calculations and can be used when even the
+underlying mechanism driving a property are not yet understood. These
+advantages have inspired the development of many techniques for building
+machine learning models using materials data, which have proven to be valuable
+tools for accelerating materials design. However, the software and data
+necessary to actually use many of these models is often unpublished and even
+comparisons between similar techniques in the literature are rare. The lack of
+replicability of these methods frustrates the ability of engineers to identify
+appropriate methods and apply them to new problems.</p>
+<p>In this project we aim to develop a library of example machine learning models
+based on materials data. In particular, we will focus on a particularly common
+type of machine learning model in materials: those that map the crystal
+structure of a material to its properties. Many exciting methods (including
+deep-learning-based techniques, as shown below) have been developed in the past
+few years to address this very problem. The goal of this internship is to
+generate examples of how to create and publish these models in Whole Tale so
+that the methods are available to the community at large. With the ability to
+run each of these techniques, we can then easily apply them to different
+datasets and learn whether different methods work better for different
+problems. Both the availability of examples on how to use these methods and the
+knowledge about when each is most well suited will help further enable the use
+of machine learning in materials design.</p>
+<p><img alt="" src="2018-matsci.png" /></p>
+<p>Filter design of the of the SchNet model (Schütt et al.,
+arXiv:<a href="https://arxiv.org/abs/1712.06113">1712.06113v1</a>) and the output of
+example filters for different crystal structures.</p>
+<h2>Necessary Prerequisites:</h2>
+<ul>
+<li>Python programming</li>
+<li>Basic knowledge of data analysis in Python (e.g., Pandas, numpy)</li>
+</ul>
+<h2>Desirable Skills / Qualifications:</h2>
+<ul>
+<li>Basic knowledge of materials science</li>
+<li>Basic understanding of machine learning </li>
+</ul>
+<h2>Expected Outcomes:</h2>
+<ul>
+<li>Review of published models that map crystal structure of a material to its properties</li>
+<li>Library of example machine learning models based on materials data</li>
+<li>Published models in WholeTale</li>
+</ul>
+<p><strong>Primary Mentor</strong>: Kyle Chard, Computation Institute, University of Chicago
+and Argonne National Laboratory</p>
+<p><strong>Secondary Mentor(s)</strong>: Logan Ward, Computation Institute, University of
+Chicago and Argonne National Laboratory, Ben Blaiszik, Computation Institute,
+University of Chicago and Argonne National Laboratory</p>
+
+  </div>
+  <!-- /.container -->
+
+    
+  <!-- Footer -->
+  <footer class="py-2 bg-dark">
+    <div class="container">
+      <div class="row">
+        
+      </div>
+      <p class="m-0 text-center text-white">This material is based upon work supported by the National Science Foundation under Grant No. OAC-1541450. Copyright &copy; Wholetale 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/lazysizes/lazysizes.min.js" async=""></script>
+  <script type="text/javascript">
+    function redirectGirder(element, redirectUrl) {
+      var uri = "https://dashboard.wholetale.org" + redirectUrl + '?token={girderToken}';
+      $.ajax({
+        type: "GET",
+        dataType: "json",
+        url: "https://girder.wholetale.org/api/v1/oauth/provider",
+        data: {
+          redirect: uri,
+          list: false
+        },
+        success: function(resp) {
+          window.location = resp.Globus;
+        }
+      });
+    }
+
+    $('.redirectGirder').click( function(e) {
+       e.preventDefault();
+    });
+  </script>
+
+</body>
+
+</html>

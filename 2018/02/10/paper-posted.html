@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Whole Tale will enable researchers to examine, transform and then seamlessly republish research data that was used in an article. As a result, these &quot;living ...">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
+  <title>The Whole Tale</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">
+        <img class="img-fluid rounded logo" src="/img/whole_tale_logo_text_long_light.png" alt="">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="/team.html">Team</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/news.html">News</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/participate.html">Participate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://wholetale.readthedocs.io/en/stable/README.html">Docs</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   
+  
+
+  <!-- Page Content -->
+  
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Architecture Paper Published
+      
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="/news.html">News</a>
+      </li>
+      
+      <li class="breadcrumb-item active">Architecture Paper Published</li>
+    </ol>
+
+    <p>Our architecture paper was
+<a href="https://doi.org/10.1016/j.future.2017.12.029">published</a> in Future Generation
+Computer Systems.</p>
+
+  </div>
+  <!-- /.container -->
+
+    
+  <!-- Footer -->
+  <footer class="py-2 bg-dark">
+    <div class="container">
+      <div class="row">
+        
+      </div>
+      <p class="m-0 text-center text-white">This material is based upon work supported by the National Science Foundation under Grant No. OAC-1541450. Copyright &copy; Wholetale 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/lazysizes/lazysizes.min.js" async=""></script>
+  <script type="text/javascript">
+    function redirectGirder(element, redirectUrl) {
+      var uri = "https://dashboard.wholetale.org" + redirectUrl + '?token={girderToken}';
+      $.ajax({
+        type: "GET",
+        dataType: "json",
+        url: "https://girder.wholetale.org/api/v1/oauth/provider",
+        data: {
+          redirect: uri,
+          list: false
+        },
+        success: function(resp) {
+          window.location = resp.Globus;
+        }
+      });
+    }
+
+    $('.redirectGirder').click( function(e) {
+       e.preventDefault();
+    });
+  </script>
+
+</body>
+
+</html>

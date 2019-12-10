@@ -7,8 +7,12 @@ body {
   padding-top: 56px;
 }
 
+.logo {
+  height: 30px;
+}
+
 .carousel-item {
-  height: 65vh;
+  height: 40vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -19,4 +23,23 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.col-xs-offset-1 {
+  margin-left: 4.166666667%;
+}
+
+.support-logos {
+    text-align: center;
+}
+
+.wtcontainer {
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #00517D;
+  border-color: #00517D;
 }
