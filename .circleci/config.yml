@@ -62,12 +62,47 @@ jobs:
           name: Deploy Master to Firebase
           command: ./node_modules/.bin/firebase deploy --token=${FIREBASE_TOKEN} --project=${FIREBASE_PROJECT}
 
+  docs-gh-pages-deploy:
+    docker:
+      - image: circleci/python:3.7-buster-node
+    working_directory: ~/project
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "d9:ff:72:0a:39:3e:aa:3d:87:7f:1b:fe:1e:70:3f:9a"
+      - run:
+          name: Show current branch
+          command: echo ${CIRCLE_BRANCH}
+      - restore_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+      - run:
+          name: Install gh-pages helper
+          command: npm install --save-dev gh-pages@2.1.1
+      - run:
+          name: Configure Git User
+          command: |
+            git config user.email "yt.fido@gmail.com"
+            git config user.name "yt Fido"
+      - run:
+          name: Deploy to gh-pages branch
+          command: ./node_modules/.bin/gh-pages --dist public
+
 workflows:
   version: 2
   build-deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only: master
       - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+      - docs-gh-pages-deploy:
           requires:
             - build
           filters:
