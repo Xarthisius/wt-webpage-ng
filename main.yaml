@@ -100,7 +100,7 @@ features:
     content: |
       Virtually all published discoveries today have data and computational
       components. There is a mismatch between traditional scientific
-      dissemination practices and modern computational research practice leads
+      dissemination practices and modern computational research practice that leads
       to reproducibility concerns. The Whole Tale platform supports
       computational reproducibility by enabling researchers to create and
       package code, data and information about the workflow and computational
