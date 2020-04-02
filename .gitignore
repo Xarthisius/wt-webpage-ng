@@ -1,6 +1,7 @@
 node_modules
 public/*.html
 public/201*
+public/202*
 public/vendor
 internship_projects
 .firebase

@@ -105,6 +105,7 @@ other summer employment/commitments, university schedules, etc.
 or honors, and full contact information (including phone number, email address,
 and mailing address)
 
+**Please submit a single pdf file of both the cover letter and the resume.**
 We also encourage you to submit an optional letter of reference from a
 professor, supervisor, or other mentor. Please ask your letter-writer to email
 the reference letter directly to
