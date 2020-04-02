@@ -108,10 +108,10 @@ We also encourage you to submit an optional letter of reference from a
 professor, supervisor, or other mentor. Please ask your letter-writer to email
 the reference letter directly to
 
- * `wholetale-interns-2019@googlegroups.com` (cc to `ludaesch@illinois.edu`). 
-   The Subject should be:  `Summer Internship 2019: <Applicant's Name>`
+ * `wholetale-interns-2020@googlegroups.com` (cc to `ludaesch@illinois.edu`).
+   The Subject should be: `Summer Internship 2020: <Applicant's Name>`
 
-Applications must be completed and submitted **no later than May 3, 2019**.
+Applications must be completed and submitted **no later than April 20, 2020**.
 
 ### Funding Acknowledgment
 
