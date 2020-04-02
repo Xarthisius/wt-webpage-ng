@@ -58,6 +58,7 @@ account applicants' interests and expertise.
 
  1. [Exploring Causal Models for Algorithmic Fairness](/internship_projects/2020-exploring-casual-models.html)
  1. [Reproducible Analysis of Scientific Assets](/internship_projects/2020-reproducible-analysis.html)
+ 1. [Declarative Dashboards for Volumetric Data](/internship_projects/2020-declarative-dashboards.html)
 
 ### Eligibility
 
