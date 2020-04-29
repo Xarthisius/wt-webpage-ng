@@ -6,32 +6,32 @@ team:
       Supercomputing Applications, University of Illinois at
       Urbana-Champaign
   - name: Kyle Chard
-    role: Co-Investigator
+    role: Co-PI
     image: /img/people/kchard.jpg
     institution: Computation Institute, University of Chicago and Argonne
       National Laboratory
   - name: Niall Gaffney
-    role: Co-Investigator
+    role: Co-PI
     github: nigaffney
     institution: Texas Advanced Computing Center, University of Texas at
       Austin
   - name: Matthew Jones
-    role: Co-Investigator
+    role: Senior Personnel
     github: mbjones
     institution: National Center for Ecological Analysis and Synthesis, University
       of California at Santa Barbara
   - name: Jarek Nabrzyski
-    role: Co-Investigator
+    role: Senior Personnel
     institution: Center for Research Computing, University of Notre Dame
     image: /img/people/jnabrzyski.jpg
   - name: Victoria Stodden
-    role: Co-Investigator
+    role: Co-PI
     image: /img/people/vcs2.jpg
     institution: School of Information Sciences & National Center for
       Supercomputing Applications, University of Illinois at
       Urbana-Champaign
   - name: Matthew Turk
-    role: Co-Investigator
+    role: Co-PI
     image: /img/people/mturk.jpg 
     institution: School of Information Sciences & National Center for
       Supercomputing Applications, University of Illinois at
@@ -40,10 +40,6 @@ team:
     role: Project Manager
     image: /img/people/mtcampbell.jpg
     institution: School of Information Sciences, University of Illinois
-  - name: Elias Chalhoub
-    role: Software Developer
-    image: /img/people/echalhoub.jpg
-    institution: Texas Advanced Computing Center, University of Texas at Austin
   - name: Kristina Furse Davis
     role: UI/UX Expert
     image: /img/people/kdavis.jpg
@@ -85,6 +81,10 @@ former:
     github: abrinckm
     institution: Center for Research Computing, University of Notre Dame
     image: /img/people/abrinckman.jpg
+  - name: Elias Chalhoub
+    role: Software Developer
+    image: /img/people/echalhoub.jpg
+    institution: Texas Advanced Computing Center, University of Texas at Austin
   - name: Sivakumar (Siva) Kulasekaran
     role: Software Developer
     github: aksivakumar
